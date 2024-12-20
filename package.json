@@ -1,0 +1,25 @@
+{
+  "name": "nodejs-formal",
+  "version": "0.0.1",
+  "description": "nodejs formal",
+  "main": "index.js",
+  "scripts": {
+    "basic": "nodemon ./basic/index.js",
+    "game": "nodemon ./game/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/w-t-w/nodejs-formal.git"
+  },
+  "keywords": [
+    "nodejs",
+    "formal",
+    "javascript"
+  ],
+  "author": "wtw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/w-t-w/nodejs-formal/issues"
+  },
+  "homepage": "https://github.com/w-t-w/nodejs-formal#readme"
+}
