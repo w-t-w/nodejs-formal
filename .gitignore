@@ -1,5 +1,8 @@
 .idea
 
+# pnpm
+pnpm-lock.yaml
+
 # Logs
 logs
 *.log

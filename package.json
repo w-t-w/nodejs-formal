@@ -6,7 +6,8 @@
   "scripts": {
     "basic": "nodemon ./basic/index.js",
     "game": "nodemon ./game/index.js",
-    "module": "nodemon ./module/index.js"
+    "module": "nodemon ./module/index.js",
+    "property": "nodemon ./property/index.js"
   },
   "repository": {
     "type": "git",
@@ -22,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/w-t-w/nodejs-formal/issues"
   },
-  "homepage": "https://github.com/w-t-w/nodejs-formal#readme"
+  "homepage": "https://github.com/w-t-w/nodejs-formal#readme",
+  "dependencies": {
+    "glob": "7.2.3"
+  }
 }
