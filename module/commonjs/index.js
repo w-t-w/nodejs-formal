@@ -23,4 +23,4 @@
 //     clearTimeout(timer_ano);
 // }, 1500);
 
-console.log('commonjs 模块基础部分回溯已通过!如需查看使用,将上述代码的注释剔除即可!');
+console.log('nodejs 内置模块部分回溯已通过!如需查看使用,将上述代码的注释剔除即可!');
