@@ -19,7 +19,7 @@
 // if (player_index >= game_selections_length) player_index = 0;
 //
 // console.log("游戏结果:");
-// console.log(`玩家: ${player_selection},电脑: ${computer_selection}`);
+// console.log(`玩家: ${player_selection}, 电脑: ${computer_selection}`);
 // if (player_selection === computer_selection) {
 //     console.log("平局!");
 // } else if (player_selection === game_selections[player_index]) {
