@@ -6,4 +6,5 @@ require('./callback');
 require('./loop');
 // promise 状态机
 require('./promise');
-// require('./asyncawait');
+// async/await 处理异步事件
+require('./asyncawait');
