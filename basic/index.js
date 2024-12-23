@@ -4,5 +4,6 @@ require('./general');
 require('./callback');
 // loop 事件循环机制
 require('./loop');
-// require('./promise');
+// promise 状态机
+require('./promise');
 // require('./asyncawait');
