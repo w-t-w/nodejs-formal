@@ -40,6 +40,7 @@
 </head>
 <body>
 <section id="game-result">
+
 </section>
 <section id="game-selection" class="game-selection">
     <button id="rock" class="game-selection-button">
@@ -54,8 +55,9 @@
 </section>
 <script type="application/javascript">
     const game_result = document.getElementById('game-result'),
-        gam_selection_buttons = document.getElementsByClassName('game-selection-button');
-    const game_selections = [...gam_selection_buttons];
+        game_selection_buttons = document.getElementsByClassName('game-selection-button'),
+        game_selections = [...game_selection_buttons];
+
     game_selections.forEach((game_selection) => {
         game_selection.addEventListener('click', (e) => {
             const target = e.target;

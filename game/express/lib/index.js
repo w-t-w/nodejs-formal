@@ -10,10 +10,10 @@ module.exports = (player_selection) => {
 
     const computer_random = Math.floor(Math.random() * game_selection_length);
 
+    const computer_selection = game_selection[computer_random];
+
     let player_index = computer_random + 1;
     if (player_index >= game_selection_length) player_index = 0;
-
-    const computer_selection = game_selection[computer_random];
 
     console.log('游戏结果为:');
     console.log(`玩家: ${player_selection}, 电脑: ${computer_selection}`);
