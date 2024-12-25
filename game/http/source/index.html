@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>第一届石头、剪刀与布游戏</title>
+    <style>
+        html, body {
+            padding: 0;
+            margin: 0;
+        }
+
+        #game-result {
+            width: 800px;
+            height: 600px;
+            padding: 8px 6px;
+            box-sizing: border-box;
+            background-color: lightgrey;
+            font-size: 16px;
+            font-weight: bolder;
+            color: #fff;
+        }
+
+        .game-selection {
+            margin-top: 16px;
+        }
+
+        .game-selection-button {
+            width: 120px;
+            height: 36px;
+            margin: 0 8px;
+            cursor: pointer;
+            background-color: lightskyblue;
+            border: none;
+            border-radius: 4px;
+            font-size: 15px;
+            font-weight: bolder;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+<section id="game-result">
+</section>
+<section id="game-selection" class="game-selection">
+    <button id="rock" class="game-selection-button">
+        石头
+    </button>
+    <button id="scissor" class="game-selection-button">
+        剪刀
+    </button>
+    <button id="paper" class="game-selection-button">
+        布
+    </button>
+</section>
+<script type="application/javascript">
+    const game_result = document.getElementById('game-result'),
+        gam_selection_buttons = document.getElementsByClassName('game-selection-button');
+    const game_selections = [...gam_selection_buttons];
+    game_selections.forEach((game_selection) => {
+        game_selection.addEventListener('click', (e) => {
+            const target = e.target;
+            const id = target.id;
+            fetch(`/game?action=${id}`)
+                .then(result => result.text())
+                .then(text => {
+                    game_result.innerHTML += `${text}<br/>`;
+                });
+            // 取消冒泡事件
+            e.stopPropagation();
+        });
+    });
+</script>
+</body>
+</html>
