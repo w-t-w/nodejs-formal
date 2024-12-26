@@ -27,6 +27,8 @@
   "homepage": "https://github.com/w-t-w/nodejs-formal#readme",
   "dependencies": {
     "express": "^4.21.2",
-    "glob": "7.2.3"
+    "glob": "7.2.3",
+    "koa": "^2.15.3",
+    "koa-mount": "^4.0.0"
   }
 }
