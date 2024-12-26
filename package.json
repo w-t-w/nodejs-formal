@@ -8,7 +8,8 @@
     "game": "nodemon ./game/index.js",
     "module": "nodemon ./module/index.js",
     "property": "nodemon ./property/index.js",
-    "server": "nodemon ./server/index.js"
+    "server": "nodemon ./server/index.js",
+    "rpc": "nodemon ./rpc/index.js"
   },
   "repository": {
     "type": "git",
