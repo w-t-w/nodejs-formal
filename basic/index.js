@@ -10,3 +10,5 @@ require('./promise');
 require('./asyncawait');
 // buffer 二进制数据包处理
 require('./buffer');
+// vm 模板引擎简易版
+require('./templatebasic');
