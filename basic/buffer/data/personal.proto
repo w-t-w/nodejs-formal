@@ -1,0 +1,14 @@
+message Human {
+  required string name = 1;
+  required uint32 age = 2;
+  required bool gender = 3;
+  repeated Hobby hobby = 4;
+}
+
+message Hobby {
+  required uint32 id = 1;
+  required string type = 2;
+  required uint32 type_id = 3;
+  required string name = 4;
+  required string star = 5;
+}

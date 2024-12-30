@@ -8,3 +8,5 @@ require('./loop');
 require('./promise');
 // async/await 处理异步事件
 require('./asyncawait');
+// buffer 二进制数据包处理
+require('./buffer');
