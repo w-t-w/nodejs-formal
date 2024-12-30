@@ -9,7 +9,8 @@
     "module": "nodemon ./module/index.js",
     "property": "nodemon ./property/index.js",
     "server": "nodemon ./server/index.js",
-    "rpc": "nodemon ./rpc/index.js"
+    "rpc": "nodemon ./rpc/index.js",
+    "practice": "nodemon ./practice/index.js"
   },
   "repository": {
     "type": "git",
@@ -30,6 +31,7 @@
     "express": "^4.21.2",
     "glob": "7.2.3",
     "koa": "^2.15.3",
-    "koa-mount": "^4.0.0"
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0"
   }
 }
