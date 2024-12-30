@@ -14,3 +14,5 @@ require('./buffer');
 require('./templatebasic');
 // vm 模板引擎普通版
 require('./templatenormal');
+// graphql 按需传输数据格式类型
+require('./graphql');
