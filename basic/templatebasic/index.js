@@ -19,7 +19,7 @@
 // const gary_wtw_vm_helper = '`${_(\`<p>I\'m ${user.name}, ${user.age} year\'s old, ${user.gender ? \'boy\' : \'girl\'}, I love play ${user.hobby.sports.join(\',\')} sports, I also like play ${user.hobby.game} game!</p>\`)}`';
 // const gary_wtw_vm_helper_result = vm.runInNewContext(gary_wtw_vm_helper, {
 //     user, _(value) {
-//         if (!value) return false;
+//         if (!value) return '';
 //         return value
 //             .replace(/&/g, '&amp;')
 //             .replace(/</g, '&lt;')

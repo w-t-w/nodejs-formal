@@ -12,3 +12,5 @@ require('./asyncawait');
 require('./buffer');
 // vm 模板引擎简易版
 require('./templatebasic');
+// vm 模板引擎普通版
+require('./templatenormal');
