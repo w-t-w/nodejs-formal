@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/w-t-w/nodejs-formal#readme",
   "dependencies": {
+    "easy_sock": "^0.4.1",
     "express": "^4.21.2",
     "glob": "7.2.3",
     "koa": "^2.15.3",
