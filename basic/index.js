@@ -16,3 +16,5 @@ require('./templatebasic');
 require('./templatenormal');
 // graphql 按需传输数据格式类型
 require('./graphql');
+// graphql 按需传输数据格式类型重写极客时间视频页评论
+require('./graphqlschema');
