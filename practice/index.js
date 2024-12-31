@@ -4,3 +4,5 @@ require('./download');
 require('./detail');
 // 极客时间视频页
 require('./video');
+// 极客时间列表页
+require('./list');

@@ -10,7 +10,10 @@
     "property": "nodemon ./property/index.js",
     "server": "nodemon ./server/index.js",
     "rpc": "nodemon ./rpc/index.js",
-    "practice": "nodemon ./practice/index.js"
+    "practice": "nodemon ./practice/index.js",
+    "practice-components": "webpack --config=./practice/list/components/webpack.components.js --color",
+    "practice-frontend": "webpack --config=./practice/list/frontend/webpack.web.js --color",
+    "practice-backend": "webpack --config=./practice/list/backend/webpack.ssr.js --color"
   },
   "repository": {
     "type": "git",
@@ -28,6 +31,7 @@
   },
   "homepage": "https://github.com/w-t-w/nodejs-formal#readme",
   "dependencies": {
+    "core-js": "^3.39.0",
     "easy_sock": "^0.4.1",
     "express": "^4.21.2",
     "glob": "7.2.3",
@@ -37,5 +41,17 @@
     "koa-mount": "^4.0.0",
     "koa-static": "^5.0.0",
     "protocol-buffers": "^5.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.26.4",
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/preset-react": "^7.26.3",
+    "babel-loader": "^9.2.1",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
   }
 }

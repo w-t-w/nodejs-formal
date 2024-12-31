@@ -24,7 +24,7 @@
 //             .replace(/&/g, '&amp;')
 //             .replace(/</g, '&lt;')
 //             .replace(/>/g, '&gt;')
-//             .replace(/'/g, '&#39;')
+//             .replace(/'/g, '&#039;')
 //             .replace(/"/g, '&quot;');
 //     }
 // });
@@ -44,7 +44,7 @@
 //             .replace(/&/g, '&amp;')
 //             .replace(/</g, '&lt;')
 //             .replace(/>/g, '&gt;')
-//             .replace(/'/g, '&#39;')
+//             .replace(/'/g, '&#039;')
 //             .replace(/"/g, '&quot;');
 //     },
 //     include(name, data) {
