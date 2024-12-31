@@ -13,7 +13,8 @@
     "practice": "nodemon ./practice/index.js",
     "practice-components": "webpack --config=./practice/list/components/webpack.components.js --color",
     "practice-frontend": "webpack --config=./practice/list/frontend/webpack.web.js --color",
-    "practice-backend": "webpack --config=./practice/list/backend/webpack.ssr.js --color"
+    "practice-backend": "webpack --config=./practice/list/backend/webpack.ssr.js --color",
+    "performance": "nodemon ./performance/index.js"
   },
   "repository": {
     "type": "git",
