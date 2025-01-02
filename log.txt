@@ -1,0 +1,212 @@
+Statistical profiling result from isolate-0x158008000-20607-v8.log, (9044 ticks, 6881 unaccounted, 0 excluded).
+
+ [Shared libraries]:
+   ticks  total  nonlib   name
+   2064   22.8%          /usr/local/bin/node
+
+ [JavaScript]:
+   ticks  total  nonlib   name
+      6    0.1%    0.1%  JS: *resolve node:path:1162:10
+      5    0.1%    0.1%  JS: *normalize node:path:1204:12
+      3    0.0%    0.0%  JS: *get node:_http_incoming:109:16
+      3    0.0%    0.0%  JS: *Accepts.encoding.Accepts.encodings /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/accepts@1.3.8/node_modules/accepts/index.js:127:40
+      2    0.0%    0.0%  JS: ^stringToFlags node:internal/fs/utils:595:23
+      2    0.0%    0.0%  JS: ^socketListenerWrap node:_http_server:1203:37
+      2    0.0%    0.0%  JS: ^set body /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/response.js:135:11
+      2    0.0%    0.0%  JS: ^_send node:_http_outgoing:398:49
+      2    0.0%    0.0%  JS: ^AsyncResource node:async_hooks:165:14
+      2    0.0%    0.0%  JS: *normalizeString node:path:77:25
+      2    0.0%    0.0%  JS: *Stream node:internal/streams/legacy:11:16
+      2    0.0%    0.0%  JS: *Duplex node:internal/streams/duplex:64:16
+      1    0.0%    0.0%  RegExp: ^\s*<
+      1    0.0%    0.0%  RegExp: [^\t\x20-\x7e\x80-\xff]
+      1    0.0%    0.0%  JS: ^writevGeneric node:internal/stream_base_commons:121:23
+      1    0.0%    0.0%  JS: ^setHasRejectionToWarn node:internal/process/promises:157:31
+      1    0.0%    0.0%  JS: ^set node:net:2411:6
+      1    0.0%    0.0%  JS: ^serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+      1    0.0%    0.0%  JS: ^resolve node:path:1162:10
+      1    0.0%    0.0%  JS: ^resOnFinish node:_http_server:980:21
+      1    0.0%    0.0%  JS: ^readFileSync node:fs:434:22
+      1    0.0%    0.0%  JS: ^parserOnMessageComplete node:_http_common:135:33
+      1    0.0%    0.0%  JS: ^parserOnHeadersComplete node:_http_common:71:33
+      1    0.0%    0.0%  JS: ^onerror /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/context.js:107:10
+      1    0.0%    0.0%  JS: ^nop node:_http_outgoing:90:13
+      1    0.0%    0.0%  JS: ^handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+      1    0.0%    0.0%  JS: ^getHighWaterMark node:internal/streams/state:33:26
+      1    0.0%    0.0%  JS: ^get node:internal/streams/writable:1010:8
+      1    0.0%    0.0%  JS: ^get node:_http_outgoing:247:16
+      1    0.0%    0.0%  JS: ^destroy node:internal/streams/destroy:49:17
+      1    0.0%    0.0%  JS: ^assignSocket node:_http_server:288:62
+      1    0.0%    0.0%  JS: ^_write node:internal/streams/writable:453:16
+      1    0.0%    0.0%  JS: ^_storeHeader node:_http_outgoing:454:22
+      1    0.0%    0.0%  JS: ^_destroy node:_http_incoming:218:55
+      1    0.0%    0.0%  JS: ^Writable.destroy node:internal/streams/writable:1114:38
+      1    0.0%    0.0%  JS: ^Socket._destroy node:net:806:37
+      1    0.0%    0.0%  JS: ^ServerResponse node:_http_server:196:24
+      1    0.0%    0.0%  JS: ^ReadableState node:internal/streams/readable:262:23
+      1    0.0%    0.0%  JS: ^EventEmitter node:events:219:22
+      1    0.0%    0.0%  JS: ^<anonymous> node:internal/streams/writable:916:21
+      1    0.0%    0.0%  JS: ^<anonymous> /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:31:19
+      1    0.0%    0.0%  JS: *wrappedFn node:internal/errors:535:21
+      1    0.0%    0.0%  JS: *socketListenerWrap node:_http_server:1203:37
+      1    0.0%    0.0%  JS: *set node:internal/streams/readable:133:8
+      1    0.0%    0.0%  JS: *set /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/response.js:466:6
+      1    0.0%    0.0%  JS: *send /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-send@5.0.1/node_modules/koa-send/index.js:50:21
+      1    0.0%    0.0%  JS: *runInAsyncScope node:async_hooks:204:18
+      1    0.0%    0.0%  JS: *resolvePath /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/resolve-path@1.4.0/node_modules/resolve-path/index.js:45:22
+      1    0.0%    0.0%  JS: *resOnFinish node:_http_server:980:21
+      1    0.0%    0.0%  JS: *processTicksAndRejections node:internal/process/task_queues:72:35
+      1    0.0%    0.0%  JS: *processPromiseRejections node:internal/process/promises:439:34
+      1    0.0%    0.0%  JS: *parserOnHeadersComplete node:_http_common:71:33
+      1    0.0%    0.0%  JS: *onconnection node:net:2207:22
+      1    0.0%    0.0%  JS: *onParserExecuteCommon node:_http_server:918:31
+      1    0.0%    0.0%  JS: *noop node:internal/util/debuglog:57:14
+      1    0.0%    0.0%  JS: *nextTick node:internal/process/task_queues:113:18
+      1    0.0%    0.0%  JS: *newAsyncId node:internal/async_hooks:417:20
+      1    0.0%    0.0%  JS: *innerOk node:internal/assert/utils:259:17
+      1    0.0%    0.0%  JS: *handleRequest /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:180:16
+      1    0.0%    0.0%  JS: *handleRequest /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:154:27
+      1    0.0%    0.0%  JS: *get status /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/response.js:73:13
+      1    0.0%    0.0%  JS: *get node:net:2410:6
+      1    0.0%    0.0%  JS: *get node:internal/streams/writable:1010:8
+      1    0.0%    0.0%  JS: *get node:internal/streams/readable:132:8
+      1    0.0%    0.0%  JS: *end node:_http_outgoing:1080:45
+      1    0.0%    0.0%  JS: *dispatch /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:35:23
+      1    0.0%    0.0%  JS: *connectionListenerInternal node:_http_server:666:36
+      1    0.0%    0.0%  JS: *clearBuffer node:internal/streams/writable:744:21
+      1    0.0%    0.0%  JS: *checkError node:internal/streams/destroy:33:20
+      1    0.0%    0.0%  JS: *attachFinishedListener /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/on-finished@2.4.1/node_modules/on-finished/index.js:91:33
+      1    0.0%    0.0%  JS: *assignSocket node:_http_server:288:62
+      1    0.0%    0.0%  JS: *addListener node:events:615:58
+      1    0.0%    0.0%  JS: *Socket node:net:366:16
+      1    0.0%    0.0%  JS: *ReadableState node:internal/streams/readable:262:23
+      1    0.0%    0.0%  JS: *Readable.read node:internal/streams/readable:647:35
+      1    0.0%    0.0%  JS: *Accepts /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/accepts@1.3.8/node_modules/accepts/index.js:32:18
+      1    0.0%    0.0%  JS: *<anonymous> node:internal/validators:161:40
+      1    0.0%    0.0%  JS: *<anonymous> /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/delegates@1.0.0/node_modules/delegates/index.js:71:40
+
+ [C++]:
+   ticks  total  nonlib   name
+
+ [Summary]:
+   ticks  total  nonlib   name
+     99    1.1%    1.4%  JavaScript
+      0    0.0%    0.0%  C++
+    268    3.0%    3.8%  GC
+   2064   22.8%          Shared libraries
+   6881   76.1%          Unaccounted
+
+ [C++ entry points]:
+   ticks    cpp   total   name
+
+ [Bottom up (heavy) profile]:
+  Note: percentage shows a share of a particular caller in the total
+  amount of its parent calls.
+  Callers occupying less than 1.0% are not shown.
+
+   ticks parent  name
+   6881   76.1%  UNKNOWN
+   1201   17.5%    JS: *doWrite node:internal/streams/writable:587:17
+   1094   91.1%      JS: *clearBuffer node:internal/streams/writable:744:21
+   1094  100.0%        JS: *end node:_http_outgoing:1080:45
+    810   74.0%          JS: *handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+    284   26.0%          JS: *respond /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:256:17
+    284  100.0%            JS: ^handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+    107    8.9%      JS: ^clearBuffer node:internal/streams/writable:744:21
+    107  100.0%        JS: *end node:_http_outgoing:1080:45
+     61   57.0%          JS: *respond /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:256:17
+     61  100.0%            JS: ^handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+     46   43.0%          JS: ^respond /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:256:17
+     46  100.0%            JS: ^handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+    977   14.2%    JS: ^writevGeneric node:internal/stream_base_commons:121:23
+    977  100.0%      JS: ^Socket._writeGeneric node:net:933:42
+    977  100.0%        JS: ^Socket._writev node:net:970:36
+    977  100.0%          JS: ^doWrite node:internal/streams/writable:587:17
+    977  100.0%            JS: ^clearBuffer node:internal/streams/writable:744:21
+    920   13.4%    JS: *byteLength node:buffer:770:20
+    615   66.8%      JS: ^set body /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/response.js:135:11
+    317   51.5%        JS: ^<anonymous> /Users/wtw/FrontEnd/nodejs-formal/performance/download_tool/index.js:16:23
+    178   56.2%          JS: *dispatch /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:35:23
+    178  100.0%            JS: ^serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+    139   43.8%          JS: ^dispatch /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:35:23
+    139  100.0%            JS: ^serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+    298   48.5%        JS: *<anonymous> /Users/wtw/FrontEnd/nodejs-formal/performance/download_tool/index.js:16:23
+    298  100.0%          JS: *dispatch /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:35:23
+    219   73.5%            JS: *serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+     79   26.5%            JS: ^serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+    305   33.2%      JS: ^write_ node:_http_outgoing:938:16
+    245   80.3%        JS: ^end node:_http_outgoing:1080:45
+    245  100.0%          JS: ^respond /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:256:17
+    245  100.0%            JS: ^handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+     60   19.7%        JS: *end node:_http_outgoing:1080:45
+     36   60.0%          JS: *respond /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:256:17
+     36  100.0%            JS: ^handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+     24   40.0%          JS: ^respond /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:256:17
+     24  100.0%            JS: ^handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+    814   11.8%    JS: ^byteLength node:buffer:770:20
+    423   52.0%      JS: ^write_ node:_http_outgoing:938:16
+    423  100.0%        JS: ^end node:_http_outgoing:1080:45
+    423  100.0%          JS: ^respond /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:256:17
+    423  100.0%            JS: ^handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+    391   48.0%      JS: ^set body /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/response.js:135:11
+    390   99.7%        JS: ^<anonymous> /Users/wtw/FrontEnd/nodejs-formal/performance/download_tool/index.js:16:23
+    320   82.1%          JS: ^dispatch /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:35:23
+    320  100.0%            JS: ^serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+     70   17.9%          JS: *dispatch /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:35:23
+     70  100.0%            JS: ^serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+    696   10.1%    JS: *write_ node:_http_outgoing:938:16
+    602   86.5%      JS: *end node:_http_outgoing:1080:45
+    439   72.9%        JS: *handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+    163   27.1%        JS: *respond /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:256:17
+    163  100.0%          JS: ^handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+     94   13.5%      JS: ^end node:_http_outgoing:1080:45
+     91   96.8%        JS: *handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+      3    3.2%        JS: ^respond /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:256:17
+      3  100.0%          JS: ^handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+    412    6.0%    JS: *set body /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/response.js:135:11
+    412  100.0%      JS: *<anonymous> /Users/wtw/FrontEnd/nodejs-formal/performance/download_tool/index.js:16:23
+    412  100.0%        JS: *dispatch /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:35:23
+    412  100.0%          JS: *serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+    412  100.0%            /usr/local/bin/node
+    387    5.6%    JS: ^readFileSync node:fs:434:22
+    386   99.7%      JS: ^<anonymous> /Users/wtw/FrontEnd/nodejs-formal/performance/download_tool/index.js:16:23
+    263   68.1%        JS: ^dispatch /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:35:23
+    263  100.0%          JS: ^serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+    263  100.0%            /usr/local/bin/node
+    123   31.9%        JS: *dispatch /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:35:23
+    123  100.0%          JS: ^serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+    123  100.0%            /usr/local/bin/node
+    307    4.5%    JS: *<anonymous> /Users/wtw/FrontEnd/nodejs-formal/performance/download_tool/index.js:16:23
+    307  100.0%      JS: *dispatch /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:35:23
+    276   89.9%        JS: *serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+    276  100.0%          /usr/local/bin/node
+     31   10.1%        JS: ^serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+     31  100.0%          /usr/local/bin/node
+    275    4.0%    JS: *writevGeneric node:internal/stream_base_commons:121:23
+    275  100.0%      JS: ^Socket._writeGeneric node:net:933:42
+    275  100.0%        JS: ^Socket._writev node:net:970:36
+    275  100.0%          JS: ^doWrite node:internal/streams/writable:587:17
+    275  100.0%            JS: ^clearBuffer node:internal/streams/writable:744:21
+    175    2.5%    JS: *clearBuffer node:internal/streams/writable:744:21
+    175  100.0%      JS: *Writable.uncork node:internal/streams/writable:520:37
+    175  100.0%        JS: ^end node:_http_outgoing:1080:45
+    170   97.1%          JS: *handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+      5    2.9%          JS: ^respond /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:256:17
+      5  100.0%            JS: ^handleResponse /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa@2.15.3/node_modules/koa/lib/application.js:184:28
+
+   2064   22.8%  /usr/local/bin/node
+    918   44.5%    JS: *<anonymous> /Users/wtw/FrontEnd/nodejs-formal/performance/download_tool/index.js:16:23
+    918  100.0%      JS: *dispatch /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:35:23
+    814   88.7%        JS: *serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+    814  100.0%          /usr/local/bin/node
+    104   11.3%        JS: ^serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+    104  100.0%          /usr/local/bin/node
+    887   43.0%    JS: ^readFileSync node:fs:434:22
+    879   99.1%      JS: ^<anonymous> /Users/wtw/FrontEnd/nodejs-formal/performance/download_tool/index.js:16:23
+    562   63.9%        JS: ^dispatch /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:35:23
+    562  100.0%          JS: ^serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+    562  100.0%            /usr/local/bin/node
+    317   36.1%        JS: *dispatch /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-compose@4.1.0/node_modules/koa-compose/index.js:35:23
+    317  100.0%          JS: ^serve /Users/wtw/FrontEnd/nodejs-formal/node_modules/.pnpm/koa-static@5.0.0/node_modules/koa-static/index.js:39:33
+    317  100.0%            /usr/local/bin/node
+
