@@ -10,4 +10,5 @@ require('./download_javascript_performance');
 require('./download_memory');
 // 多进程 child process 试练
 require('./child_process');
-
+// 多进程集群
+require('./cluster');
