@@ -8,3 +8,6 @@ require('./download_tool');
 require('./download_javascript_performance');
 // 内存分配策略,检测内存泄漏或者溢出
 require('./download_memory');
+// 多进程 child process 试练
+require('./child_process');
+
