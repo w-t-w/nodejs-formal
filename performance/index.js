@@ -12,3 +12,5 @@ require('./download_memory');
 require('./child_process');
 // 多进程集群
 require('./cluster');
+// 多进程守护与管理
+require('./daemon');
