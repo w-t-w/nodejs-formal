@@ -4,3 +4,5 @@ require('./download');
 require('./download_simple');
 // 使用各类性能分析工具实行项目代码性能分析
 require('./download_tool');
+// 使用 Javascript 实行代码优化
+require('./download_javascript_performance');
