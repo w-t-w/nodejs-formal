@@ -6,3 +6,5 @@ require('./download_simple');
 require('./download_tool');
 // 使用 Javascript 实行代码优化
 require('./download_javascript_performance');
+// 内存分配策略,检测内存泄漏或者溢出
+require('./download_memory');
